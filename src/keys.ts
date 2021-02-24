@@ -43,8 +43,6 @@ Data set required for sub-section:
   actions: TailwindActions => padding & margin
 */
 
-
-
 export const menuSpacing: TailwindActionGroup = {
     parentHeader: 'Element',
     childHeader: 'Spacing',
@@ -64,7 +62,7 @@ export const menuSpacing: TailwindActionGroup = {
                 character: 'm',
                 css: 'margin: '
             },
-            dir:['', '-', 'x', 'y', 't', 'b', 'r', 'l'] 
+            dir:['', '-', 'x', 'y', 't', 'b', 'r', 'l'],
             dist: standardSpacing
         }
     ]
